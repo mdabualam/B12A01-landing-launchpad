@@ -201,11 +201,94 @@ main {
   color: #00000080;
   margin-bottom: 20px;
 }
-.get-started{
+.get-started {
   margin: 20px 0;
 }
 .focus-image {
   width: 840px;
   height: 350px;
   border-radius: 48px;
+}
+
+/* user feedback styles */
+.user-feedback {
+  margin-top: 90px;
+  display: flex;
+  gap: 115px;
+  align-items: center;
+}
+.feedback-column {
+  width: 50%;
+}
+.feedback-title {
+  font-family: Raleway;
+  font-size: 97px;
+  font-weight: 700;
+  color: #000000;
+}
+.user-info input,
+textarea {
+  display: block;
+  padding: 20px 0;
+  border: 1px solid rgb(214, 221, 237);
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  width: 100%;
+  margin-bottom: 20px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  color: #00000080;
+}
+.user-info label {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+}
+.btn-primary:hover {
+  background-color: goldenrod;
+}
+.user-info button {
+  width: 100%;
+  display: block;
+  padding: 20px 0;
+}
+
+/* footer styles */
+footer {
+  margin-top: 14px;
+  width: 530px;
+  height: 220px;
+  padding: 100px 450px;
+}
+.info-link ul {
+  display: flex;
+  justify-content: space-around;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  color: #8987A1;
+}
+.logo-text {
+  font-family: Inter;
+  font-size: 100px;
+  font-weight: 900;
+  color: #4e47ff;
+  line-height: 0;
+  text-align: center;
+}
+.logo-info {
+  margin: 20px 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  color: #8987a1;
+  text-align: center;
 }
