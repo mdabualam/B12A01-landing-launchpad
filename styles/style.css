@@ -59,3 +59,38 @@ nav li a {
   font-size: 16px;
   font-weight: 700;
 }
+
+/* main styles */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* section action styles*/
+.action-container {
+  margin: 116px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.action-details {
+  width: 517px;
+  height: 203px;
+}
+.action-title {
+  font-family: Raleway;
+  font-size: 42px;
+  font-weight: 700;
+  color: #252432;
+  margin-bottom: 0;
+}
+.action-description {
+  margin: 23px 0;
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 400;
+  color: #25243280;
+}
+.action-image{
+  border-radius: 48px;
+}
