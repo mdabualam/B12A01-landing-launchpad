@@ -131,7 +131,7 @@ main {
 .users-say {
   margin-top: 137px;
 }
-.card-container{
+.card-container {
   margin-top: 50px;
   display: flex;
   gap: 20px;
@@ -177,4 +177,35 @@ main {
   color: #757575;
   margin: 50px;
   line-height: 0;
+}
+
+/* ready to focus styles */
+.ready-focus {
+  margin-top: 137px;
+  padding: 71px 150px;
+  text-align: center;
+  border-radius: 14px;
+  background: rgb(249, 248, 247);
+}
+.focus-title {
+  font-family: Raleway;
+  font-size: 50px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 0;
+}
+.focus-description {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  color: #00000080;
+  margin-bottom: 20px;
+}
+.get-started{
+  margin: 20px 0;
+}
+.focus-image {
+  width: 840px;
+  height: 350px;
+  border-radius: 48px;
 }
