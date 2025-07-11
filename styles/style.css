@@ -264,6 +264,7 @@ textarea {
 }
 .btn-primary:hover {
   background-color: goldenrod;
+  color: green;
 }
 .user-info button {
   width: 100%;
