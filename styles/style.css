@@ -11,8 +11,8 @@
 }
 
 header {
-  width: 1440px;
-  height: 698px;
+  max-width: 1440px;
+  height: 700px;
   background-image: url(../Assets/Hero-bg.png);
   background-repeat: no-repeat;
 }
@@ -32,13 +32,13 @@ nav li a {
 }
 .title-logo {
   font-family: Inter;
-  font-size: 34px;
+  font-size: 35px;
   font-weight: 900;
   color: #4e47ff;
 }
 .banner {
-  width: 905px;
-  height: 237px;
+  width: 900px;
+  height: 240px;
   text-align: center;
   margin: 150px 265px;
 }
@@ -64,19 +64,18 @@ nav li a {
 main {
   max-width: 1140px;
   margin: 0 auto;
-  background: rgb(250, 249, 249);
 }
 
 /* section action styles*/
 .action-container {
-  margin: 116px 0;
+  margin: 120px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .action-details {
-  width: 517px;
-  height: 203px;
+  width: 520px;
+  height: 200px;
 }
 .action-title {
   font-family: Raleway;
@@ -86,7 +85,7 @@ main {
   margin-bottom: 0;
 }
 .action-description {
-  margin: 23px 0;
+  margin: 25px 0;
   font-family: Raleway;
   font-size: 24px;
   font-weight: 400;
@@ -105,14 +104,14 @@ main {
 }
 .user-review-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .production-title {
   font-family: Raleway;
   font-size: 38px;
   font-weight: 700;
   color: #252432;
-  /* margin-bottom: 0; */
+  line-height: 0;
 }
 .user-numbers {
   font-family: Inter;
@@ -171,13 +170,28 @@ main {
   font-weight: 400;
   color: #1e1e1e;
 }
+.reviewer-info{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.reviewer-photo{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
 .reviewer-name {
   font-family: Inter;
   font-size: 16px;
   font-weight: 600;
   color: #757575;
-  margin: 50px;
-  line-height: 0;
+  line-height: 0.5;
+}
+.review-date{
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+   color: #757575;
 }
 
 /* ready to focus styles */
@@ -185,7 +199,7 @@ main {
   padding: 71px 150px;
   text-align: center;
   border-radius: 14px;
-  background: rgb(249, 248, 247);
+  background: rgb(255, 255, 255);
 }
 .focus-title {
   font-family: Raleway;
@@ -262,20 +276,6 @@ footer {
   height: 220px;
   padding: 100px 450px;
 }
-.info-link ul {
-  display: flex;
-  justify-content: space-around;
-}
-ul li {
-  list-style: none;
-}
-ul li a {
-  text-decoration: none;
-  font-family: Inter;
-  font-size: 16px;
-  font-weight: 400;
-  color: #8987a1;
-}
 .logo-text {
   font-family: Inter;
   font-size: 100px;
@@ -292,3 +292,18 @@ ul li a {
   color: #8987a1;
   text-align: center;
 }
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  color: #8987a1;
+}
+
